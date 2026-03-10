@@ -39,10 +39,10 @@
                         </span>
 
                         <span class="actions">
-                            <a href="edit.php?id=<?php echo $row['id']; ?>">Edit</a>
+                            <a href="edit_task.php?id=<?php echo $row['id']; ?>">Edit</a>
 
-                            <!--<a href="delete.php?id=<?php echo $row['id']; ?>">Delete</a>-->
-                            <a href="delete.php?id=<?php echo $row['id']; ?>"
+                            <!--<a href="delete_task.php?id=<?php echo $row['id']; ?>">Delete</a>-->
+                            <a href="delete_task.php?id=<?php echo $row['id']; ?>"
                                 onclick="return confirm('Are you sure you want to delete this task?');">
                                 Delete
                             </a>

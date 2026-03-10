@@ -9,12 +9,12 @@
         <div class="container">
             <h2>Add Task</h2>
 
-            <form method="post" action="add.php">
+            <form method="post" action="add_task.php">
                 <input type="text" name="task" placeholder="Enter your Task">
                 <button type="submit">Add</button>
             </form>
 
-            <a href="list.php">
+            <a href="tasks.php">
                 <button type="button">View Task List</button>
             </a>
             

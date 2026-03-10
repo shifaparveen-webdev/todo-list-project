@@ -1,2 +1,18 @@
-# todo-list-project
-Simple To-Do List Web Application built using HTML, CSS, JavaScript, and PHP for task management.
+# To-Do List Web Application
+
+A simple task management application built using PHP and MySQL.
+
+## Features
+- Add tasks
+- Edit tasks
+- Delete tasks
+- View all tasks
+
+## Technologies
+- HTML
+- CSS
+- PHP
+- MySQL
+
+## Author
+Shifa Parveen

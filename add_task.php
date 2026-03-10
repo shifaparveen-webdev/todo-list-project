@@ -12,7 +12,8 @@ use Dba\Connection;
         $sql = "INSERT INTO tasks (task) VALUES ('$task')";
         mysqli_query($conn, $sql);
         
-        header("Location: list.php?msg=added");
+        header("Location: tasks.php?msg=added");
         exit;
     }
 ?>
+

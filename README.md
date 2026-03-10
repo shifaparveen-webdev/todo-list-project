@@ -1,16 +1,16 @@
 # 📝 To-Do List Web Application
 
 A simple **Task Management Web Application** built using **PHP and MySQL**.
-This application allows users to create, edit, view, and delete daily tasks easily.
+This project allows users to manage daily tasks by adding, editing, viewing, and deleting tasks.
 
 ---
 
 ## 📌 Features
 
 * ➕ Add new tasks
+* 📋 View all tasks
 * ✏️ Edit existing tasks
 * 🗑️ Delete tasks
-* 📋 View all tasks in a list
 * 🎨 Simple and clean user interface
 
 ---
@@ -22,6 +22,7 @@ This application allows users to create, edit, view, and delete daily tasks easi
 * **PHP**
 * **MySQL**
 * **WAMP Server**
+* **Git & GitHub**
 
 ---
 
@@ -47,25 +48,39 @@ todo-list-project
 
 ## ⚙️ How to Run the Project
 
-1. Install **WAMP Server**.
-2. Start WAMP (icon should turn **green**).
-3. Place the project folder inside:
+### 1. Install WAMP Server
+
+Download and install **WAMP Server**.
+
+### 2. Start WAMP
+
+Start WAMP and make sure the icon turns **green**.
+
+### 3. Move Project Folder
+
+Place the project inside:
 
 ```
 C:\wamp64\www\
 ```
 
-4. Open **phpMyAdmin**.
+Example:
 
-5. Create a database named:
+```
+C:\wamp64\www\online\todo-list-project
+```
+
+### 4. Create Database
+
+Open **phpMyAdmin** and create a database:
 
 ```
 todo_app
 ```
 
-6. Create a table called **tasks**.
+### 5. Create Table
 
-Example structure:
+Create a table named **tasks** with this structure:
 
 | Column      | Type         | Extra          |
 | ----------- | ------------ | -------------- |
@@ -73,10 +88,12 @@ Example structure:
 | task        | VARCHAR(255) |                |
 | PRIMARY KEY | id           |                |
 
-7. Open your browser and run:
+### 6. Run the Project
+
+Open your browser and go to:
 
 ```
-http://localhost/todo-list-project/
+http://localhost/online/todo-list-project/
 ```
 
 ---
@@ -87,25 +104,35 @@ http://localhost/todo-list-project/
 
 ![Home](images/home.png)
 
-### Task List Page
+### Task List
 
 ![Task List](images/task-list.png)
 
-### Edit Task Page
+### Edit Task
 
 ![Edit Task](images/edit-task.png)
 
 ---
 
-## 🎯 Learning Outcome
+## 🎯 Learning Outcomes
 
 Through this project I learned:
 
-* CRUD operations using **PHP & MySQL**
-* Database connection with **mysqli**
+* CRUD operations using **PHP and MySQL**
+* Connecting **PHP with MySQL database**
 * Handling **GET and POST requests**
-* Basic **Git & GitHub workflow**
-* Running PHP projects using **WAMP**
+* Basic **Git and GitHub workflow**
+* Running PHP applications using **WAMP server**
+
+---
+
+## 🚀 Future Improvements
+
+Possible improvements for this project:
+
+* ✔ Task completion checkbox
+* ✔ User authentication (login system)
+* ✔ Responsive UI using Bootstrap
 
 ---
 
@@ -113,4 +140,5 @@ Through this project I learned:
 
 **Shifa Parveen**
 
-GitHub: [https://github.com/](https://github.com/)
+GitHub:
+[https://github.com/shifaparveen-webdev](https://github.com/shifaparveen-webdev)

@@ -18,7 +18,7 @@
         
         mysqli_query($conn , "UPDATE tasks SET task = '$task_name' WHERE id = '$id' ");
         
-        header("Location: list.php");
+        header("Location: tasks.php");
         exit;
     }
 ?>
@@ -42,3 +42,4 @@
         </div>
     </body>
 </html>
+

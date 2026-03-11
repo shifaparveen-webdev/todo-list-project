@@ -1,6 +1,6 @@
 # 📝 To-Do List Web Application
 
-A simple **Task Management Web Application** built using **PHP and MySQL**.
+A simple **Task Management Web Application** built using **PHP and MySQL**.  
 This project allows users to manage daily tasks by adding, editing, viewing, and deleting tasks.
 
 ---
@@ -37,6 +37,7 @@ todo-list-project
 ├── delete.php
 ├── list.php
 ├── style.css
+├── database.sql
 ├── README.md
 └── images
     ├── home.png
@@ -78,15 +79,20 @@ Open **phpMyAdmin** and create a database:
 todo_app
 ```
 
-### 5. Create Table
+### 5. Import Database File
 
-Create a table named **tasks** with this structure:
+1. Open **phpMyAdmin**
+2. Select the **todo_app** database
+3. Click **Import**
+4. Select the file:
 
-| Column      | Type         | Extra          |
-| ----------- | ------------ | -------------- |
-| id          | INT          | AUTO_INCREMENT |
-| task        | VARCHAR(255) |                |
-| PRIMARY KEY | id           |                |
+```
+database.sql
+```
+
+5. Click **Go**
+
+This will automatically create the **tasks table**.
 
 ### 6. Run the Project
 
@@ -140,5 +146,5 @@ Possible improvements for this project:
 
 **Shifa Parveen**
 
-GitHub:
-[https://github.com/shifaparveen-webdev](https://github.com/shifaparveen-webdev)
+GitHub:  
+https://github.com/shifaparveen-webdev
